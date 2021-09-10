@@ -16,6 +16,7 @@ Increase the replication of this hdfs directory to number of data nodes. It furt
 hdfs dfs –setrep -w 10 hdfs:///installations/spark/jars/
 ```
 
+
 ### Spark History Server:
 
 Every SparkContext launches a Web UI, by default on port 4040 (in case of multiple spark context 4041, 4042, etc), that displays useful information about the application. 
