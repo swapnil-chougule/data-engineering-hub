@@ -3,4 +3,4 @@ Data engineering documents - tools, technologies etc for Bigdata, AI, ML use cas
 
 ## Spark
 
-* [Spark on Yarn](https://github.com/swapnil-chougule/data-engineering-hub/spark/spark_on_yarn.md)
+* [Spark on Yarn](https://github.com/swapnil-chougule/data-engineering-hub/blob/main/spark/spark_on_yarn.md)
