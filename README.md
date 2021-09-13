@@ -8,3 +8,7 @@ Data engineering documents - tools, technologies etc for Bigdata, AI, ML use cas
 ## Deltalake
 
 * [Delta with Vacuum](https://github.com/swapnil-chougule/data-engineering-hub/blob/main/deltalake/delta_with_vacuum.md)
+
+## Scylla/Cassandra
+
+* [Cassandra/Scylla Basics](https://github.com/swapnil-chougule/data-engineering-hub/blob/main/scylla_cassandra/cassandra_basics.md)
