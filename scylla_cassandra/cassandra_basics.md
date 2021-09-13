@@ -7,13 +7,13 @@
 - Multi DC support 
 - AP (from CAP Theorem) - Eventual + Tunable Consistency
 
-### Scylla Vs Cassandra:
+## Scylla Vs Cassandra:
 Same design/architecture but Scylla is written in C++ when Cassandra is in Java
 - Scylla reduces CPU resources consumption by avoiding program loading into the JVM,
 - Scylla has more flexible and complex memory management (attributes of C++ designed programs),
 - Provides a custom network configuration that minimizes resource usage with direct requests from userspace without usage of the system kernel.
 
-#### CQL:
+### CQL:
 ```$xslt
 CREATE KEYSPACE MyKeySpace
   WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 3 };
@@ -71,7 +71,7 @@ Map < user_1 , SortedMap ( P1-c1, p2-c2)>
 Feature Group -> Column Family (Table)
 ```
  
-  
+
 ## Node Level Read Path:
 ![cassandra_node_level_read_path](./cassandra_node_level_read_path.png)
 
